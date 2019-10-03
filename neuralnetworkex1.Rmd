@@ -1,0 +1,41 @@
+---
+title: "neuralnetworkex1"
+author: "Omkar Bhutra"
+date: "23 January 2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Excercise 1
+###1.1
+Supervised , Unsupervised and Reinforcement Learning
+###1.2
+Feature's are the independant variables that can be used to describe the dependant variable and hence are also called the predictors. Features are aspects of a certain object or phenomenon that we would like to classify.
+###1.3
+####a
+x is used to denote the vector of feature's.
+w1..wn is used to denote the weights of the classifiers that are optimised in the training process.
+$\Omega$ is a set of discrete class labels.
+####b
+In Classification, a discrete class label is predicted using a discrete label inputs.
+In Regression, a continuous variable is predicted , example economic variables, weather data.
+####c
+Learning of a classifier is done by optimising the weights of the classifiers during the learning process.
+###1.4
+####a
+A learning method is able to generalise well if it can perform well on previously unseen data that is if it can learn well enough from the training data and apply it on test data which was unseen previously.
+####b
+We can estimate the generalisation error by checking with the performance of the classifier on the test data.
+####c
+To avoid overfitting of the model on the training data.
+####d
+When the model performs much better on the training data than on the test data, we can observe that the model has been overfit.
+###1.5
+Accuracy= (80+90)/(80+90+20+30) = 77.27%
+###1.6
+
+
+
